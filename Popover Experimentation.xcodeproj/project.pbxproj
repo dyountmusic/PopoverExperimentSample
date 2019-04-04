@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EA22F3102256733C00A3640A /* Build configuration list for PBXProject "Popover Experimentation =" */;
+			buildConfigurationList = EA22F3102256733C00A3640A /* Build configuration list for PBXProject "Popover Experimentation" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -331,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA22F3102256733C00A3640A /* Build configuration list for PBXProject "Popover Experimentation =" */ = {
+		EA22F3102256733C00A3640A /* Build configuration list for PBXProject "Popover Experimentation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA22F3252256733E00A3640A /* Debug */,

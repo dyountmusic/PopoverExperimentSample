@@ -103,14 +103,13 @@ extension DetailPopoverTableViewController {
     }
 
     @objc func changeNavBackButtonColor() {
-        self.navigationController?.navigationBar.backItem?.backBarButtonItem?.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.red], for: .normal)
-        self.navigationController?.navigationBar.backItem?.titleView?.backgroundColor = UIColor.blue
-        navigationController?.navigationBar.backItem?.leftBarButtonItem?.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.red], for: .normal)
-        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "Hello", style: .plain, target: nil, action: nil)
-        self.navigationController?.navigationBar.backItem?.backBarButtonItem = UIBarButtonItem(title: "Hello", style: .plain, target: self, action: nil)
-        self.navigationController?.navigationBar.backItem?.backBarButtonItem?.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.red], for: .normal)
-        navigationController?.navigationBar.backItem?.backBarButtonItem?.tintColor = .red
-
+//        self.navigationController?.navigationBar.backItem?.backBarButtonItem?.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.red], for: .normal)
+//        self.navigationController?.navigationBar.backItem?.titleView?.backgroundColor = UIColor.blue
+//        navigationController?.navigationBar.backItem?.leftBarButtonItem?.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.red], for: .normal)
+//        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "Hello", style: .plain, target: nil, action: nil)
+//        self.navigationController?.navigationBar.backItem?.backBarButtonItem = UIBarButtonItem(title: "Hello", style: .plain, target: self, action: nil)
+//        self.navigationController?.navigationBar.backItem?.backBarButtonItem?.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.red], for: .normal)
+//        navigationController?.navigationBar.backItem?.backBarButtonItem?.tintColor = .red
         //        navigationController?.navigationBar.tintColor = UIColor.red -> This works for the buttons :/
     }
 

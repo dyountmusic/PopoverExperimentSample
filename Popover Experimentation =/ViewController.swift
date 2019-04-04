@@ -14,7 +14,8 @@ class ViewController: UIViewController {
 
     @IBAction func buttonPressed(_ sender: Any) {
         let popoverVC = PopoverTableViewController()
-        let nav = UINavigationController(rootViewController: popoverVC)
+        let nav = MyNavController(rootViewController: popoverVC)
+//        let nav = UINavigationController(rootViewController: popoverVC)
         nav.modalPresentationStyle = .popover
         nav.popoverPresentationController?.sourceRect = button.bounds
         nav.popoverPresentationController?.sourceView = button
@@ -27,6 +28,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Popover Experiment"
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Hello There", style: .plain, target: nil, action: nil)
     }
 
 
