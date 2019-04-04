@@ -296,7 +296,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XQS7PSG89D;
-				INFOPLIST_FILE = "Popover Experimentation =/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Popover Experimentation/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -315,7 +315,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XQS7PSG89D;
-				INFOPLIST_FILE = "Popover Experimentation =/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Popover Experimentation/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

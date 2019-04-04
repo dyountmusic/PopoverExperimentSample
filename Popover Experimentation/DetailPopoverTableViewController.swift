@@ -14,12 +14,6 @@ class DetailPopoverTableViewController: UITableViewController {
         super.viewDidLoad()
         setupTableView()
         setRightBarButton()
-//        self.title = "Details"
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
     // MARK: - Table view data source
@@ -102,19 +96,8 @@ extension DetailPopoverTableViewController {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "detailBasicCell")
     }
 
-    @objc func changeNavBackButtonColor() {
-//        self.navigationController?.navigationBar.backItem?.backBarButtonItem?.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.red], for: .normal)
-//        self.navigationController?.navigationBar.backItem?.titleView?.backgroundColor = UIColor.blue
-//        navigationController?.navigationBar.backItem?.leftBarButtonItem?.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.red], for: .normal)
-//        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "Hello", style: .plain, target: nil, action: nil)
-//        self.navigationController?.navigationBar.backItem?.backBarButtonItem = UIBarButtonItem(title: "Hello", style: .plain, target: self, action: nil)
-//        self.navigationController?.navigationBar.backItem?.backBarButtonItem?.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.red], for: .normal)
-//        navigationController?.navigationBar.backItem?.backBarButtonItem?.tintColor = .red
-        //        navigationController?.navigationBar.tintColor = UIColor.red -> This works for the buttons :/
-    }
-
     func setRightBarButton() {
-        let rightBarButton = UIBarButtonItem(title: "Press Me", style: .done, target: self, action: #selector(changeNavBackButtonColor))
+        let rightBarButton = UIBarButtonItem(title: "Button", style: .done, target: self, action: nil)
         self.navigationItem.setRightBarButton(rightBarButton, animated: true)
     }
 }
