@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EA22F3152256733C00A3640A /* Popover Experimentation =.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Popover Experimentation =.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA22F3152256733C00A3640A /* Popover Experimentation Sample =.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Popover Experimentation Sample =.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA22F3182256733C00A3640A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA22F31A2256733C00A3640A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA22F31D2256733C00A3640A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		EA22F30C2256733C00A3640A = {
 			isa = PBXGroup;
 			children = (
-				EA22F3172256733C00A3640A /* Popover Experimentation = */,
+				EA22F3172256733C00A3640A /* Popover Experimentation */,
 				EA22F3162256733C00A3640A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		EA22F3162256733C00A3640A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA22F3152256733C00A3640A /* Popover Experimentation =.app */,
+				EA22F3152256733C00A3640A /* Popover Experimentation Sample =.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA22F3172256733C00A3640A /* Popover Experimentation = */ = {
+		EA22F3172256733C00A3640A /* Popover Experimentation */ = {
 			isa = PBXGroup;
 			children = (
 				EA22F3182256733C00A3640A /* AppDelegate.swift */,
@@ -70,15 +70,15 @@
 				EA22F3212256733E00A3640A /* LaunchScreen.storyboard */,
 				EA22F3242256733E00A3640A /* Info.plist */,
 			);
-			path = "Popover Experimentation =";
+			path = "Popover Experimentation";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA22F3142256733C00A3640A /* Popover Experimentation = */ = {
+		EA22F3142256733C00A3640A /* Popover Experimentation Sample = */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA22F3272256733E00A3640A /* Build configuration list for PBXNativeTarget "Popover Experimentation =" */;
+			buildConfigurationList = EA22F3272256733E00A3640A /* Build configuration list for PBXNativeTarget "Popover Experimentation Sample =" */;
 			buildPhases = (
 				EA22F3112256733C00A3640A /* Sources */,
 				EA22F3122256733C00A3640A /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = "Popover Experimentation =";
+			name = "Popover Experimentation Sample =";
 			productName = "Popover Experimentation =";
-			productReference = EA22F3152256733C00A3640A /* Popover Experimentation =.app */;
+			productReference = EA22F3152256733C00A3640A /* Popover Experimentation Sample =.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EA22F3102256733C00A3640A /* Build configuration list for PBXProject "Popover Experimentation" */;
+			buildConfigurationList = EA22F3102256733C00A3640A /* Build configuration list for PBXProject "Popover Experimentation Sample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA22F3142256733C00A3640A /* Popover Experimentation = */,
+				EA22F3142256733C00A3640A /* Popover Experimentation Sample = */,
 			);
 		};
 /* End PBXProject section */
@@ -331,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA22F3102256733C00A3640A /* Build configuration list for PBXProject "Popover Experimentation" */ = {
+		EA22F3102256733C00A3640A /* Build configuration list for PBXProject "Popover Experimentation Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA22F3252256733E00A3640A /* Debug */,
@@ -340,7 +340,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA22F3272256733E00A3640A /* Build configuration list for PBXNativeTarget "Popover Experimentation =" */ = {
+		EA22F3272256733E00A3640A /* Build configuration list for PBXNativeTarget "Popover Experimentation Sample =" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA22F3282256733E00A3640A /* Debug */,
